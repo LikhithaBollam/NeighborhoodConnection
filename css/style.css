@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 74px; */
+    background-color: var(--main-bg-color);
+    padding: 11px 85px;
+}
+
+.nav-left {
+    font-size: 30px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-left ul li {
+    font-family: var(--font2);
+    list-style: none;
+    margin: 0 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nav-left ul li a:hover {
+    color:white;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.content-left h2 {
+    font-family: var(--font2);
+    margin-bottom: 9px;
+
+}
+
+.content-left p {
+    font-family: var(--font3);
+
+}
+
+
+.content-right img {
+    height: 295px;
+    border: 2px solid black;
+    border-radius: 64px;
+
+
+}
+
+.content {
+    display: flex;
+    /* height: 395px; */
+    /* background: #FFEADD; */
+    margin-top: 32px;
+    padding: 9px;
+    
+
+}
+
+.content-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer {
+    height: 50px;
+    background-color: yellow;
+}
+
+.home-articles {
+    position: relative;
+    padding-top: 12px;
+}
+
+.year-box {
+    position: absolute;  
+    right: 0px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 18px;
+  }
+
+.year-box div{
+    margin:12px 0px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 300px;
+    height:200px
+}
+
+.home-article-content {
+ align-self: center;
+ padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color:black;
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}

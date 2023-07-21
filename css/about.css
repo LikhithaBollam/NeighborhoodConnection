@@ -1,0 +1,9 @@
+li{
+    font-family: var(--font3);
+}
+
+.post-img1 img {
+    width: -webkit-fill-available;
+    height: auto;
+    margin: 0px 186.5px;
+}
