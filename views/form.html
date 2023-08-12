@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloggers Website</title>
+    <link rel="stylesheet" href="static/utils.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/mobile.css">
+    <script defer src="https://kit.fontawesome.com/88487eac37.js" crossorigin="anonymous"></script>
+    
+    
+
+
+</head>
+
+<body>
+    
+    <nav class="navigation">
+        <div class="nav-left">
+            <a href="#"><span><i class="fa-solid fa-people-group"></i></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/">Testimonials</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/form">Form</a></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <form action="/form" method="post" name="query">
+
+
+                <button class="btn">Login</button>
+                <a href="#"><span><i class="fa-solid fa-user"></i></span>
+                </a>
+
+            </form>
+
+        </div>
+    </nav>
+
+    <div class="contact-content font2 max-width-1 m-auto">
+        <div class="max-width-1 m-auto mx-1">
+            <h2 style="padding:25px 0px;">Neighborhood Interest Form</h2>
+            <form action="/form", method="post", class="myForm1"></form>
+            <div class="contact-form">
+                <div class="form-box2">
+                    <label for="name">Name (first and/or last, or nickname):</label>
+                    <input class="name1" type="text" id="name" name="name"><br><br>
+                </div>
+
+                <div class="form-box2">
+                    <label for="contact">How to contact me (email, cell, and/or street address):</label>
+                    <input class="name1" type="text" id="contact" name="contact"><br><br>
+
+                </div>
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Shared Activities (select all that apply):</p>
+                    <p>I may be interested in sharing these activities with nearby neighbors:</p>
+                </div>
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Walking (circle speeds):</p>
+                    <label><input type="radio" name="walking_speed" value="slow">Slow</label><br>
+                    <label><input type="radio" name="walking_speed" value="moderate">Moderate</label><br>
+                    <label><input type="radio" name="walking_speed" value="fast">Fast</label><br>
+                </div>
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Running (circle speeds):</p>
+                    <label><input type="radio" name="Running" value="slow">Slow(jogging)</label><br>
+                    <label><input type="radio" name="Running" value="moderate">Moderate</label><br>
+                    <label><input type="radio" name="Running" value="fast">Fast</label><br>
+                </div>
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Bicycling (circle speeds):</p>
+                    <label><input type="radio" name="Bicycling" value="slow">Slow</label><br>
+                    <label><input type="radio" name="Bicycling" value="moderate">Moderate</label><br>
+                    <label><input type="radio" name="Bicycling" value="fast">Fast</label><br>
+                </div>
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Dog Walking</p>
+                    <label><input type="radio" name="DogWalking" value="Yes">Yes</label><br>
+                    <label><input type="radio" name="DogWalking" value="No">No</label><br>
+
+                </div>
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Gardening:</p>
+                    <label><input type="radio" name="Gardening" value="Flowers">Flowers/Landscape</label><br>
+                    <label><input type="radio" name="Gardening" value="fruits">fruits/vegetables</label><br>
+                    <label><input type="radio" name="Gardening" value="Both">Both</label><br>
+                </div>
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Swimming:</p>
+                    <label><input type="radio" name="Swimming" value="Public Pool">My backyard</label><br>
+                    <label><input type="radio" name="Swimming" value="Public Pool">Public Pool</label><br>
+                    <label><input type="radio" name="Swimming" value="Health Pool">Health Pool</label><br>
+
+                </div>
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Drinks:</p>
+                    <label><input type="radio" name="Drinks" value="coffee">Coffee</label><br>
+                    <label><input type="radio" name="Drinks" value="tea">Tea</label><br>
+                    
+
+                </div>
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>At my place or yours:</p>
+                    <label><input type="radio" name="place" value="myplace">Myplace</label><br>
+                    <label><input type="radio" name="place" value="yours">Yours</label><br>
+                </div>
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Curricular Activities:</p>
+                    <label><input type="checkbox" name="Activities" value="Sketching">Sketching</label><br>
+                    <label><input type="checkbox" name="Activities" value="Drawing">Drawing</label><br>
+                    <label><input type="checkbox" name="Activities" value="Painting">Painting</label><br>
+                </div>
+
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Parties:</p>
+                    <label><input type="checkbox" name="Parties" value="Cookouts/BBQs">Cookouts/BBQs</label><br>
+                    <label><input type="checkbox" name="Parties" value="BlockParties">BlockParties</label><br>
+                    <label><input type="checkbox" name="Parties" value="DinnerParties">DinnerParties</label><br>
+                    <label><input type="checkbox" name="Parties"
+                            value="CrummyDinnerParties">CrummyDinnerParties</label><br>
+                </div>
+
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>In-person computer games</p>
+                    <label><input type="radio" name="Games" value="Yes">Yes</label><br>
+                    <label><input type="radio" name="Games" value="No">No</label><br>
+
+                </div>
+
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <div>
+                    <p>Watching Telivision Sports</p>
+                    <label><input type="radio" name="sports" value="interested">Yes</label><br>
+                    <label><input type="radio" name="sports" value="notinterested">No</label><br>
+                    </div>
+
+                    <p>Interest</p>
+                    <label><input type="radio" name="Interest" value="Football">Football</label><br>
+                    <label><input type="radio" name="Interest" value="Basketball">Basketball</label><br>
+                    <label><input type="radio" name="Interest" value="Others">Others</label><br>
+
+                </div>
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Movies</p>
+                    <label><input type="checkbox" name="Movies" value="Action">Action</label><br>
+                    <label><input type="checkbox" name="Movies" value="Romance">Romance</label><br>
+                    <label><input type="checkbox" name="Movies" value="Comedy">Comedy</label><br>
+                    <label><input type="checkbox" name="Movies" value="Science">Science Fiction</label><br>
+                    <label><input type="checkbox" name="Movies" value="Indie">Indie</label><br>
+                </div>
+
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Shopping:</p>
+                    <label><input type="checkbox" name="Shopping" value="Groceries">Groceries</label><br>
+                    <label><input type="checkbox" name="Shopping" value="Clothing">Clothing</label><br>
+                    <label><input type="checkbox" name="Shopping" value="Books">Books</label><br>
+                    <label><input type="checkbox" name="Shopping" value="others">others</label><br>
+
+                </div>
+
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Restaurants:</p>
+                    <label><input type="radio" name="Restaurants" value="Yes">Yes</label><br>
+                    <label><input type="radio" name="Restaurants" value="No">No</label><br>
+
+                </div>
+
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Reading Groups:</p>
+                    <label><input type="radio" name="Reading" value="Quarterly">Quarterly</label><br>
+                    <label><input type="radio" name="Reading" value="Monthly">Monthly</label><br>
+                    <label><input type="radio" name="Reading" value="Weekly">Weekly</label><br>
+                    <label><input type="radio" name="Reading" value="Outdoors">Outdoors</label><br>
+
+
+
+                </div>
+
+
+                <div class="form-box1" style="padding:15px 0px;">
+                    <p>Favors I can do, circle all that apply</p>
+                    
+                    <p>I may be able to do these free favors for nearby neighbors:</p>
+                  
+
+                </div>
+                <br>
+
+                <div>
+                    <span>Errands:</span>
+
+                    <label><input type="radio" name="Errand" value="Emergencies">Emergencies</label>
+                    <label><input type="radio" name="Errand" value="Occasional">Occasional</label>
+                    <label><input type="radio" name="Errand" value="Regular/frequent">Regular/frequent</label>
+                    
+                </div>
+                <br>
+
+
+                <div>
+
+                    <span>Rides:</span>
+
+                    <label><input type="radio" name="Rides" value="Emergencies">Emergencies</label>
+                    <label><input type="radio" name="Rides" value="Occasional">Occasional</label>
+                    <label><input type="radio" name="Rides" value="Regular/frequent">Regular/frequent</label>
+                    
+                </div>
+                <br>
+
+
+
+                <div>
+
+                    <span>Childcare:</span>
+
+                    <label><input type="radio" name="Childcare" value="Emergencies">Emergencies</label>
+                    <label><input type="radio" name="Childcare" value="Occasional">Occasional</label>
+                    <label><input type="radio" name="Childcare" value="Regular/frequent">Regular/frequent</label>
+                   
+                </div>
+                <br>
+
+                <div>
+                    <span>Eldercare:</span>
+
+                    <label><input type="radio" name="Eldercare" value="Emergencies">Emergencies</label>
+                    <label><input type="radio" name="Eldercare" value="Occasional">Occasional</label>
+                    <label><input type="radio" name="Eldercare" value="Regular/frequent">Regular/frequent</label>
+
+                    
+                </div>
+                <br>
+
+
+                <div>
+
+                    <span>Petcare:</span>
+
+                    <label><input type="radio" name="Petcare" value="Emergencies">Emergencies</label>
+                    <label><input type="radio" name="Petcare" value="Occasional">Occasional</label>
+                    <label><input type="radio" name="Petcare" value="Regular/frequent">Regular/frequent</label>
+
+                    
+                </div>
+                <br>
+
+                <div>
+                    
+                    <p>Tutoring:</p>
+                    <label for="tutoring">Enter the subject:</label>
+                    <input class="tutor" type="text" id="tutor" name="tutor"><br><br>
+              
+                
+                </div>
+                <br>
+                <div>
+                    <span>Repair Advice:</span>
+
+                        <label><input type="radio" name="Repair" value="HomeRepair">Home Repair</label>
+                        <label><input type="radio" name="Repair" value="AutoRepair">Auto Repair</label>
+
+
+                        
+
+                </div>
+                <br>
+
+
+                <div>
+                    <span>Other Advice:</span>
+
+                        <label><input type="radio" name="Other" value="Garden/landscape">Garden/landscape</label>
+                        <label><input type="radio" name="Other" value="Computer">Computer</label>
+                </div>
+
+
+                
+                <div class="form-box1" style="margin:8px 0px;">
+                    <button class="btn">Submit</button>
+                </div>
+
+               
+            </div>
+
+        </form>
+        </div>
+      
+    </div>
+
+    <div class="footer m-auto">
+        Copyright &copy; Neighborgood.com
+    </div>
+
+
+
+</body>
+
+</html>
