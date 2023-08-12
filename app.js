@@ -12,13 +12,14 @@ mongoose.connect('mongodb://127.0.0.1/neighborhoodform',{useNewUrlParser:true});
 
 
 var neighborhoodformSchema=new mongoose.Schema({
-    name:String,
+  name:String,
     contact:String,
     walking_speed:String,
     Running:String,
     Bicycling:String,
     Games:String,
     Gardening:String,
+    place:String,
     Swimming:String,
     Drinks:String,
     Activities:String,
@@ -33,11 +34,13 @@ var neighborhoodformSchema=new mongoose.Schema({
     Errand:String,
     Rides:String,
     Childcare:String,
+    Eldercare:String,
     Petcare:String,
 
     tutor:String,
     Repair:String,
     Other:String,
+
 
 });
 
